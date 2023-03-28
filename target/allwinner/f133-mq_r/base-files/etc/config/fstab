@@ -19,10 +19,10 @@ config 'mount'
 	option	enabled		'1'
 
 config 'mount'
-	option  target		'/mnt/UDISK'
+	option  target		'/root'
 	option	device		'/dev/by-name/UDISK'
 	option	options		'rw,async'
-	option	enabled		'0'
+	option	enabled		'1'
 
 config 'mount'
 	option  target		'/overlay'
